@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f0f8ff, #b3d9ff);
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #0056b3;
+    color: white;
+    padding: 50px 20px;
+    font-size: 1.2em;
+    border-bottom: 3px solid #007bff;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    margin-bottom: 15px;
+}
+
+h1 {
+    margin-top: 15px;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 20px;
+    max-width: 850px;
+    margin: 50px auto;
+    background: white;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+section:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+h2 {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Skills Section */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.skills-container span {
+    background: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+}
+
+.skills-container span:hover {
+    background: #0056b3;
+}
+
+/* Buttons */
+.btn, .whatsapp-btn {
+    display: inline-block;
+    padding: 15px 30px;
+    margin-top: 15px;
+    font-size: 1.1em;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn {
+    background: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.whatsapp-btn {
+    background: #25D366;
+    color: white;
+    font-weight: bold;
+}
+
+.whatsapp-btn:hover {
+    background: #1EBE5D;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    padding: 25px 20px;
+    margin-top: 30px;
+    font-size: 1.1em;
+}
